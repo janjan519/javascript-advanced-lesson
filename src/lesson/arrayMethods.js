@@ -20,7 +20,7 @@ const array = [
 const newArray = array.map((el) => {
   return {
     tag: el.tag,
-    className: "c-" + el.className,
+    className: `c-${el.className}`,
   };
 });
 
